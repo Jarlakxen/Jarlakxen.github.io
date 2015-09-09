@@ -1,0 +1,15 @@
+{
+  "name": "MyPage",
+  "version": "0.0.0",
+  "authors": [
+    "Facundo Viale"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.5",
+    "fontawesome": "4.4.0",
+    "randomcolor": "0.4.0",
+    "wow": "1.1.2",
+    "angular": "1.4.5",
+    "tc-angular-chartjs": "1.0.12"
+  }
+}
