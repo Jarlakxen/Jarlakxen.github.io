@@ -141,7 +141,8 @@ header {
 	background-color: #ED5A64;
     border-color: #DB4F58;
 	color: #FFFFFF;
-	font-size: 20px;
+	font-size: 21px;
+	font-weight: 800;
 	border-radius: 5px 5px 0 0;
 }
 
@@ -150,9 +151,9 @@ header {
 	border-top: 8px solid rgba(0,0,0,0.15);
 }
 
-
 .section1 {
 	color: @color2;
+	padding-top: 30px;
 	margin-bottom: 80px;
 
 	ul.links {
@@ -188,12 +189,47 @@ header {
 	}
 }
 
+.section(@title-font-color, @title-background-color, @body-font-color, @body-background-color) {
+
+	.title-container{
+		color: @title-font-color;
+		background-color: @title-background-color;
+		h1, h2, h3, h4, h5 {
+			.section-label;
+			margin-top: 30px;
+			margin-bottom: 0px;
+			line-height: 2;
+		}
+	}
+
+	.body-container{
+		color: @body-font-color;
+		background-color: @body-background-color;
+		padding-top: 30px;
+		.section-border;
+	}
+}
+
+
 .section2 {
-	color: @color1;
-	background-color: @background1;
+	.section(@color2, @background2, @color1, @background1);
+
+	.body-container{
+		padding-top: 0px;
+	}
 
 	.skill-label{
 		margin-top: 20px;
-		margin-bottom: 20px;
+		h1, h2, h3, h4, h5 {
+			font-size: 30px;
+		}
 	}
+}
+
+.section3 {
+	.section(@color1, @background1, @color2, @background2);
+}
+
+.section4 {
+	.section(@color2, @background2, @color1, @background1);
 }

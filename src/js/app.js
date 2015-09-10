@@ -1,3 +1,8 @@
+// ******************************************
+
+//  			Global Stuff
+
+// ******************************************
 
 if (![].shuffle) {
 	Array.prototype.shuffle = function() {
@@ -16,6 +21,28 @@ if (![].shuffle) {
 	};
 }
 
+
+// String - Tooltip label font declaration for the scale label
+Chart.defaults.global.tooltipFontFamily = "Inconsolata, Monaco, Consolas, 'Courier New', monospace";
+
+// Number - Tooltip label font size in pixels
+Chart.defaults.global.tooltipFontSize = 20;
+
+// String - Tooltip title font declaration for the scale label
+Chart.defaults.global.tooltipTitleFontFamily = "Inconsolata, Monaco, Consolas, 'Courier New', monospace";
+
+ // Number - Tooltip title font size in pixels
+Chart.defaults.global.tooltipTitleFontSize = 20;
+
+// String - Template string for single tooltips
+Chart.defaults.global.tooltipTemplate = "<%if (label){%><%=label%>: <%}%><%= value %>%";
+
+
+// ******************************************
+
+//  			My Page App
+
+// ******************************************
 
 var app = angular.module('MyPage', ['tc.chartjs']);
 

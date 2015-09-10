@@ -9073,7 +9073,8 @@ header .name {
   background-color: #ED5A64;
   border-color: #DB4F58;
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 21px;
+  font-weight: 800;
   border-radius: 5px 5px 0 0;
 }
 .section-border {
@@ -9081,6 +9082,7 @@ header .name {
 }
 .section1 {
   color: #2c3e50;
+  padding-top: 30px;
   margin-bottom: 80px;
 }
 .section1 ul.links {
@@ -9113,13 +9115,93 @@ header .name {
   max-width: 120px;
   text-transform: uppercase;
 }
-.section2 {
+.section2 .title-container {
+  color: #2c3e50;
+  background-color: white;
+}
+.section2 .title-container h1,
+.section2 .title-container h2,
+.section2 .title-container h3,
+.section2 .title-container h4,
+.section2 .title-container h5 {
+  background-color: #ED5A64;
+  border-color: #DB4F58;
+  color: #FFFFFF;
+  font-size: 21px;
+  font-weight: 800;
+  border-radius: 5px 5px 0 0;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  line-height: 2;
+}
+.section2 .body-container {
   color: white;
   background-color: #009688;
+  padding-top: 30px;
+  border-top: 8px solid rgba(0, 0, 0, 0.15);
+}
+.section2 .body-container {
+  padding-top: 0px;
 }
 .section2 .skill-label {
   margin-top: 20px;
-  margin-bottom: 20px;
+}
+.section2 .skill-label h1,
+.section2 .skill-label h2,
+.section2 .skill-label h3,
+.section2 .skill-label h4,
+.section2 .skill-label h5 {
+  font-size: 30px;
+}
+.section3 .title-container {
+  color: white;
+  background-color: #009688;
+}
+.section3 .title-container h1,
+.section3 .title-container h2,
+.section3 .title-container h3,
+.section3 .title-container h4,
+.section3 .title-container h5 {
+  background-color: #ED5A64;
+  border-color: #DB4F58;
+  color: #FFFFFF;
+  font-size: 21px;
+  font-weight: 800;
+  border-radius: 5px 5px 0 0;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  line-height: 2;
+}
+.section3 .body-container {
+  color: #2c3e50;
+  background-color: white;
+  padding-top: 30px;
+  border-top: 8px solid rgba(0, 0, 0, 0.15);
+}
+.section4 .title-container {
+  color: #2c3e50;
+  background-color: white;
+}
+.section4 .title-container h1,
+.section4 .title-container h2,
+.section4 .title-container h3,
+.section4 .title-container h4,
+.section4 .title-container h5 {
+  background-color: #ED5A64;
+  border-color: #DB4F58;
+  color: #FFFFFF;
+  font-size: 21px;
+  font-weight: 800;
+  border-radius: 5px 5px 0 0;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  line-height: 2;
+}
+.section4 .body-container {
+  color: white;
+  background-color: #009688;
+  padding-top: 30px;
+  border-top: 8px solid rgba(0, 0, 0, 0.15);
 }
 
 /*# sourceMappingURL=less/my-page.css.map */
