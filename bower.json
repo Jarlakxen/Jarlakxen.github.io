@@ -10,6 +10,7 @@
     "randomcolor": "0.4.0",
     "wow": "1.1.2",
     "angular": "1.4.5",
-    "tc-angular-chartjs": "1.0.12"
+    "tc-angular-chartjs": "1.0.12",
+    "animate.css": "~3.4.0"
   }
 }

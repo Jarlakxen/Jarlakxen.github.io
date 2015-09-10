@@ -38,6 +38,8 @@ Chart.defaults.global.tooltipTitleFontSize = 20;
 Chart.defaults.global.tooltipTemplate = "<%if (label){%><%=label%>: <%}%><%= value %>%";
 
 
+new WOW().init();
+
 // ******************************************
 
 //  			My Page App
