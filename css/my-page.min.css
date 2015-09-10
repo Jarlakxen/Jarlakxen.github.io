@@ -12366,8 +12366,14 @@ header .name {
 }
 .section1 ul.links li {
   display: inline-block;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+  .section1 ul.links li {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 }
 .section1 ul.links li a {
   font-size: 45px;
