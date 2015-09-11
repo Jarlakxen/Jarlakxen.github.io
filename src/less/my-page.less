@@ -142,7 +142,7 @@ header {
 
 .section-label {
 	background-color: #ED5A64;
-    border-color: #DB4F58;
+	border-color: #DB4F58;
 	color: #FFFFFF;
 	font-size: 21px;
 	font-weight: 800;
@@ -255,8 +255,59 @@ header {
 
 .section3 {
 	.section(@color1, @background1, @color2, @background2);
+	
+	margin-bottom: 30px;
+
+	.tecnology-label{
+		&:after {
+			position: absolute;
+			left: 50%;
+			top: 150px;
+			margin-left: -25px;
+			width: 50px;
+			height: 2px;
+			content: "";
+			background-color: rgba(0,0,0, 0.3);
+		}
+		span {
+			font-size: 60px;
+		}
+		h1, h2, h3, h4, h5 {
+			margin-top: 10px;
+			font-weight: bold;
+		}
+	}
+
+	.tecnologies {
+		ul {
+			list-style: disc outside none;
+			margin-top: 50px;
+			margin-bottom: 30px;
+			padding: 0;
+			li {
+				font-size: 20px;
+				overflow: hidden;
+				width: 100%;
+				margin-bottom: 20px;
+				list-style: none;
+			}
+		}
+	}
 }
 
 .section4 {
 	.section(@color2, @background2, @color1, @background1);
+}
+
+.section5 {
+	.section(@color1, @background1, @color2, @background2);
+	margin-bottom: 50px;
+}
+
+footer {
+	background-color: @background1;
+	height: 100px;
+	h1, h2, h3, h4, h5 {
+		margin-top: 35px;
+	}
 }

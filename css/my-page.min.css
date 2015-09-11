@@ -12449,6 +12449,9 @@ header .name {
 .section2 .skill-label h5 {
   font-size: 30px;
 }
+.section3 {
+  margin-bottom: 30px;
+}
 .section3 .title-container {
   color: white;
   background-color: #009688;
@@ -12474,6 +12477,40 @@ header .name {
   padding-top: 30px;
   border-top: 8px solid rgba(0, 0, 0, 0.15);
 }
+.section3 .tecnology-label:after {
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  margin-left: -25px;
+  width: 50px;
+  height: 2px;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.section3 .tecnology-label span {
+  font-size: 60px;
+}
+.section3 .tecnology-label h1,
+.section3 .tecnology-label h2,
+.section3 .tecnology-label h3,
+.section3 .tecnology-label h4,
+.section3 .tecnology-label h5 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.section3 .tecnologies ul {
+  list-style: disc outside none;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+.section3 .tecnologies ul li {
+  font-size: 20px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+  list-style: none;
+}
 .section4 .title-container {
   color: #2c3e50;
   background-color: white;
@@ -12498,6 +12535,45 @@ header .name {
   background-color: #009688;
   padding-top: 30px;
   border-top: 8px solid rgba(0, 0, 0, 0.15);
+}
+.section5 {
+  margin-bottom: 50px;
+}
+.section5 .title-container {
+  color: white;
+  background-color: #009688;
+}
+.section5 .title-container h1,
+.section5 .title-container h2,
+.section5 .title-container h3,
+.section5 .title-container h4,
+.section5 .title-container h5 {
+  background-color: #ED5A64;
+  border-color: #DB4F58;
+  color: #FFFFFF;
+  font-size: 21px;
+  font-weight: 800;
+  border-radius: 5px 5px 0 0;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  line-height: 2;
+}
+.section5 .body-container {
+  color: #2c3e50;
+  background-color: white;
+  padding-top: 30px;
+  border-top: 8px solid rgba(0, 0, 0, 0.15);
+}
+footer {
+  background-color: #009688;
+  height: 100px;
+}
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5 {
+  margin-top: 35px;
 }
 
 /*# sourceMappingURL=less/my-page.css.map */

@@ -161,37 +161,6 @@ function MainCtrl($scope){
 		}
 	]);
 
-	$scope.frontend_skills = fill_with_color([
-		{
-			value: 100,
-			label: 'HTML'
-		},
-		{
-			value: 100,
-			label: 'Bower'
-		},
-		{
-			value: 100,
-			label: 'Gulp'
-		},
-		{
-			value: 100,
-			label: 'Less'
-		},
-		{
-			value: 90,
-			label: 'Babel'
-		},
-		{
-			value: 80,
-			label: 'Grunt'
-		},
-		{
-			value: 80,
-			label: 'CSS'
-		}
-	]);
-
 	$scope.others_skills = fill_with_color([
 		{
 			value: 100,
